@@ -14,4 +14,13 @@
         android:gravity="center"
         android:text="App升级"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnCallBackDownload"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnDownload"
+        android:gravity="center"
+        android:text="App回调升级"/>
+
 </RelativeLayout>
